@@ -1,8 +1,4 @@
 const BlogList = ({ blogs, heading }) => {
-  //   const blogs = props.blogs;
-  //   const heading = props.heading;
-  //   console.log(props, blogs, heading);
-
   return (
     <div className="blog-list">
       <h2>{heading}</h2>
