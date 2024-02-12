@@ -1,0 +1,22 @@
+{
+    "blogs": [
+        {
+          "title": "How to become a good developer",
+          "body": "Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Libero dolorum amet quam tenetur doloribus itaque quas praesentium. Voluptas, quas dolores.",
+          "author": "john",
+          "id": 1
+        },
+        {
+          "title": "10 tips to build React components",
+          "body": "Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Libero dolorum amet quam tenetur doloribus itaque quas praesentium. Voluptas, quas dolores.",
+          "author": "andrew",
+          "id": 2
+        },
+        {
+          "title": "React JS tutorial",
+          "body": "Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Libero dolorum amet quam tenetur doloribus itaque quas praesentium. Voluptas, quas dolores.",
+          "author": "maria",
+          "id": 3
+        }
+      ]
+}
