@@ -8,7 +8,6 @@ const useFetch = (url) => {
     setTimeout(() => {
       fetch(url)
         .then((res) => {
-          // console.log(res);
           if (!res.ok) {
             throw Error("could not fetch the data for that resource");
           }
@@ -20,7 +19,6 @@ const useFetch = (url) => {
           setError(null);
         })
         .catch((err) => {
-          // console.log(err.message);
           setIsPending(false);
           setError(err.message);
         });
