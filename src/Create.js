@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Create = () => {
   const [title, setTitle] = useState("");
@@ -6,6 +7,7 @@ const Create = () => {
   const [author, setAuthor] = useState("john");
   const [isPending, setIsPending] = useState(false);
   const [message, setMessage] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -25,6 +27,8 @@ const Create = () => {
       setTitle("");
       setBody("");
       setAuthor("john");
+      // navigate(-1);
+      navigate("/");
     });
   };
 
